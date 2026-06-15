@@ -1,0 +1,23 @@
+{
+  "name": "tp3-nodejs",
+  "version": "1.0.0",
+  "description": "Pour ce TP, il est possible de télécharger et d'exécuter MongoDB sur votre propre machine (en local) ou d’utiliser la couche gratuite de MongoDB Atlas, la « database as a service » (base de données en tant que service).",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "watch": "npx nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
